@@ -1,4 +1,4 @@
-# Customer Segmentation using KMeans Clustering
+  # Customer Segmentation using KMeans Clustering
 
 A KMeans-based customer segmentation project for a credit card company.  
 The goal is to group customers by demographic and financial characteristics to support targeted marketing decisions.
