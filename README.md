@@ -41,6 +41,18 @@ A credit card company wants to understand who its customers are — not just as 
 
 ---
 
+### EDA: Years Employed vs Income
+
+![EDA Bubble Chart](eda_years_income_bubble.png)
+
+Defaulted customers (red) concentrate among low-income, early-career individuals with fewer
+than 15 years of employment. Bubble size represents DebtIncomeRatio — the largest bubbles
+in the bottom-left confirm these customers carry the highest debt relative to what they earn.
+This pattern appears in the raw data before any clustering runs, and it directly maps onto
+what KMeans later identifies as Cluster 0.
+
+---
+
 ## Choosing K
 
 Both metrics were evaluated across K = 2 to 10.
